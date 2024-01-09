@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: rgba(0, 146, 49, 0.992);
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+#search_main {
+  display: flex;
+  padding: 20px 0;
+  width: 400px;
+  justify-content: space-evenly;
+}
+
+#search {
+  border-bottom: 1px solid black;
+  justify-content: center;
+  display: flex;
+}
+
+#container {
+  padding: 20px;
+  width: 100%;
+  justify-self: center;
+  user-select: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.movieCards {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(240, 249, 190);
+  box-shadow: 0 6px 12px black;
+  cursor: pointer;
+}
